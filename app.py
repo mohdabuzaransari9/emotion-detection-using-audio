@@ -79,7 +79,7 @@ def preprocess_audio(audio_file):
 # Streamlit App Interface
 st.title("Emotion Detector")
 st.write("""
-This application uses machine learning to predict emotions based on audio recordings. 
+This application uses deep learning to predict emotions based on audio recordings. 
 Users can upload a WAV file, and the app processes it to extract features like MFCCs, pitch, and spectral contrast. 
 The model then analyzes these features to identify the emotion conveyed in the audio, displaying the predicted emotion label. 
 With built-in data augmentation and preprocessing, the app is designed for accurate emotion recognition in varied audio inputs.
