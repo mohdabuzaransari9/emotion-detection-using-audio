@@ -106,8 +106,7 @@ emotion_emojis = {
     "angry": "😠",
     "neutral": "😐",
     "fear": "😨",
-    "disgust": "🤢",
-    "surprise": "😮"
+    "disgust": "🤢"
 }
 
 # Streamlit App Interface
@@ -119,7 +118,7 @@ st.markdown("""
     - 📤 Uploading audio files
     - 🎙️ Recording your voice directly
     
-    **Supported emotions:** Happy 😊 | Sad 😢 | Angry 😠 | Neutral 😐 | Fear 😨 | Disgust 🤢 | Surprise 😮
+    **Supported emotions:** Happy 😊 | Sad 😢 | Angry 😠 | Neutral 😐 | Fear 😨 | Disgust 🤢 
 """)
 
 # Create tabs for different input methods
